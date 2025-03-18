@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UEFA Champions League</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Início</a></li>
+        <li><a href="#teams">Equipes</a></li>
+        <li><a href="#players">Jogadores</a></li>
+        <li><a href="#news">Notícias</a></li>
+        <li><a href="#contact">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home">
+    <h1>Bem-vindo à UEFA Champions League!</h1>
+    <p>Acompanhe todos os detalhes sobre a maior competição de clubes do mundo.</p>
+    <img src="champions-league.jpg" alt="Logo da Champions League">
+  </section>
+
+  <section id="teams">
+    <h2>Equipes Participantes</h2>
+    <p>Conheça as principais equipes da competição e suas histórias.</p>
+    <!-- Aqui você pode listar as equipes e suas informações -->
+  </section>
+
+  <section id="players">
+    <h2>Jogadores em Destaque</h2>
+    <p>Veja os maiores jogadores da história da competição.</p>
+    <!-- Aqui você pode adicionar informações sobre jogadores como Messi, Cristiano Ronaldo, etc. -->
+  </section>
+
+  <section id="news">
+    <h2>Últimas Notícias</h2>
+    <p>Aqui você encontrará as notícias mais recentes sobre a Champions League.</p>
+    <!-- Você pode adicionar links para as notícias atuais ou inserir um feed de notícias -->
+  </section>
+
+  <section id="contact">
+    <h2>Contato</h2>
+    <form action="submit_form.php" method="POST">
+      <label for="name">Nome:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Mensagem:</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 UEFA Champions League. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
